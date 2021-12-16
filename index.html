@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/image1.png" alt="Logotype">
+            </a>
+            <h1 class="main-title">
+                Тренировка Javascript
+            </h1>
+        </div>
+    </header>
+    <section class="tabss" id="tabss">
+        <div class="container">
+            <h2 class="section-title">
+                1. Табы
+            </h2>
+            <div class="tabs">
+                <div class="tabs-btns" id="tabs-btns">
+                    <button type="button" class="tabs__btn active" data-btn="1">
+                        Жираф
+                    </button>
+                    <button type="button" class="tabs__btn" data-btn="2">
+                        Олень
+                    </button>
+                    <button type="button" class="tabs__btn" data-btn="3">
+                        Козочка
+                    </button>
+                    <button type="button" class="tabs__btn" data-btn="4">
+                        Бурундук
+                    </button>
+                </div>
+                <div class="tabs-contents" id="tabs-contents">
+                    <div class="tabs-content active" data-content="1">
+                        <h3 class="tabs-content__title">
+                            Жираф
+                        </h3>
+                         <p class="tabs-content__text">
+                            Шея у жирафов необычайно длинная, и это несмотря на то, что у них, как и почти у всех других млекопитающих, лишь семь шейных позвонков. Большой рост увеличивает нагрузку на систему кровообращения, прежде всего в отношении кровоснабжения головного мозга.
+                         </p>
+                         <p class="tabs-content__text">
+                            Помимо этого, у жирафа имеются особые запирающие клапаны в большой шейной вене, прерывающие поток крови таким образом, что сохраняется давление в главной артерии, снабжающей мозг.
+                        </p>
+                    </div>
+                    <div class="tabs-content" data-content="2">
+                        <h3 class="tabs-content__title">
+                            Олень
+                        </h3>
+                         <p class="tabs-content__text">
+                            Олень средних размеров. Туловище удлиненное, шея довольно длинная, из-за сильной оброслости кажется толстой и массивной, ноги относительно короткие. Голову и шею животное держит обычно низко, как бы горбится. 
+                         </p>
+                         <p class="tabs-content__text">
+                            Относительно невысокая в мозговой области, она лишь слабо суживается к концу. Конец морды сплошь покрыт волосами (носовое зеркало отсутствует), довольно толстый, но не вздутый, верхняя губа не вздутая и над нижней не свешивается. 
+                        </p>
+                    </div>
+                    <div class="tabs-content" data-content="3">
+                        <h3 class="tabs-content__title">
+                            Козочка
+                        </h3>
+                         <p class="tabs-content__text">
+                            Домашняя коза (лат. Capra hircus) — домашнее животное, вид парнокопытных из рода горные козлы (Capra) семейства полорогих.
+                        </p>
+                         <p class="tabs-content__text">
+                            Коза — одно из первых прирученных животных. Одомашнена на Ближнем Востоке, приблизительно 9 тыс. лет назад. Предком домашней козы был дикий безоаровый козёл (Capra hircus aegagrus), до сегодняшнего дня встречающийся от греческих островов в Эгейском море через Малую Азию, Армянское нагорье и Переднюю Азию до Средней Азии.
+                        </p>
+                    </div>
+                    <div class="tabs-content" data-content="4">
+                        <h3 class="tabs-content__title">
+                            Бурундук
+                        </h3>
+                         <p class="tabs-content__text">
+                            Бурундук, как и белка, — древесный житель. Ему не обязательно нужны высокие старые деревья, иногда он довольствуется зарослями черемухи, березняка или ивы. На открытых местах и в чистом высокоствольном лесу без подлеска из молодой поросли и кустарников он не живёт. 
+                        </p>
+                         <p class="tabs-content__text">
+                            Жилая зона выстилается сухой травой и листьями. В ней животные спят ночью и проводят время зимней спячки. Здесь же рождаются и детёныши.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Section Modal Window -->
+    <section class="modal-window" id="modal-window">
+        <div class="container">
+            <div class="modal-wrapper">
+                
+            </div>
+            <h2 class="section-title">
+                2. Модальное окно
+            </h2>
+            <button type="button" class="order-btn" id="order-btn">Вызвать дождь</button>
+        </div>
+    </section>
+<!-- Section Sliders -->
+    <section class="sliders" id="sliders">
+        <div class="container">
+            <h2 class="section-title">
+                3. Слайдер
+            </h2>
+            <div class="slides">
+                <div class="slide active">
+                    <img src="images/1.png" alt="Image">
+                </div>
+                <div class="slide">
+                    <img src="images/2.png" alt="Image">
+                </div>
+                <div class="slide">
+                    <img src="images/3.png" alt="Image">
+                </div>
+                <button id="slide-btn-prev">
+                    <img src="images/prev.svg" alt="Previous">
+                </button>
+                <button id="slide-btn-next">
+                    <img src="images/next.svg" alt="Next">
+                </button>
+                <div class="dots">
+                    <button type="button" class="dot active"></button>
+                    <button type="button" class="dot"></button>
+                    <button type="button" class="dot"></button>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+<!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <p class="footer-text">
+                Ну, что поделать, если мне все это удалось! :)
+            </p>
+        </div>
+    </footer>
+<!-- Section Part of Modal Window -->
+    <div class="modal" id="modal">
+        <div class="modal-content" id="modal-content">
+            <button id="modal-content__btn">
+                Close
+            </button>
+            <h3 class="modal-content__title">
+                Немного о дожде
+            </h3>
+            <p class="modal-content__text">
+                До́ждь — атмосферные осадки, выпадающие из облаков в виде капель жидкости со средним диаметром от 0,5 до 6—7 мм[1].
+            </p>
+            <p class="modal-content__text">
+                Осенние дожди. Южная Эстония
+            </p>
+            <p class="modal-content__text">
+                Летний дождь в Санкт-Петербурге
+                Жидкие осадки с меньшим диаметром капель называются моросью[2]. Капли с диаметром больше 6—7 мм разбиваются в процессе падения из облаков на меньшие капли, поэтому даже при сильнейшем ливне диаметр капель не превышает 6—7 мм. Интенсивность дождя обычно составляет от 0,25 мм/ч (моросящий дождь) до 100 мм/ч (ливень)[1]. В Европе самый сильный ливень с интенсивностью 15,5 мм/мин был зафиксирован в 1920 году в Германии[2].
+            </p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
